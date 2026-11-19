@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Contact Us</title>
+        <meta name="description" content="Discover Rise Coffee off of Whyte Ave">
+        <meta property="og:title" content="Rise Coffee">
+	    <meta property="og:description" content="A neighbourhood coffee shop on Whyte Avenue.">
+	    <meta property="og:image" content="https://TheFlame139.github.io/rise-coffee/images/share.jpg">
+	    <meta property="og:url" content="https://TheFlame139.github.io/rise-coffee/">
+
+        <link rel="icon" href="images/favicon.png">
+
+        <!-- STYLES -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="layout.css">
+        <link rel="stylesheet" href="style.css">
+       
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+
+            <a href="index.html"><img src="images/rise-logo.svg" alt="Rise Logo" class="logo-img"></a>
+
+            <nav>  
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li> 
+                    <li><a class="nav-link" href="about.html">About</a></li> 
+                    <li><a class="nav-link" href="contact.html">Contact</a></li> 
+                </ul>
+            </nav>
+
+            <a class="nav-link button" href="index.html#visit">Visit Us</a>
+            <div class="hamburger">
+                <div class="hamburger-bar"></div>
+                <div class="hamburger-bar"></div>
+                <div class="hamburger-bar"></div>	
+            </div>
+        </header>
+
+
+        <section class="section-padding"> <!--Have a Question?-->
+            <div class="container">
+
+                <div class="row row-justify-center">
+                    <h1>contact us</h1>
+                </div>
+
+                <div class="row">
+                    <div class="col col-lg-3 col-md-4 col-sm-12">
+
+						<h3>location</h3>
+						<p>304 Main St<br>Wellington, ON  K0K 3L0</p>
+
+						<!-- Opening hours are a list of related items, so: another ul.
+						     Same two tags as the navigation, doing a completely different job. -->
+						<h3>hours</h3>
+						<ul class="hours">
+							<li>Monday <strong>7am - 5pm</strong></li>
+                            <li>Tuesday <strong>7am - 5pm</strong></li>
+                            <li>Wednesday <strong>7am - 5pm</strong></li>
+                            <li>Thursday <strong>7am - 7pm</strong></li>
+                            <li>Friday <strong>7am - 5pm</strong></li>
+                            <li>Saturday <strong>9am - 5pm</strong></li>
+                            <li>Sunday <strong>9am - 3pm</strong></li>
+						</ul>
+
+                    </div> <!--COLUMN ENDS-->
+				
+					<div class="col col-lg-9 col-md-8 col-sm-12">
+
+                        <h3>have a question?</h3>
+                    
+                        <form class="contact-form">
+                            <div class="field">
+                                <label for="FirstName">First Name</label>
+                                <input type="text" id="FirstName" class="input-text"> 
+                            </div>
+                            <div class="field">
+                                <label for="LastName">Last Name</label>
+                                <input type="text" id="LastName" class="input-text"> 
+                            </div>
+                            <div class="field">
+                                <label for="Email">Email</label>
+                                <input type="email" id="Email" class="input-text"> 
+                            </div>
+                            <div class="field">
+                                <label for="Phone">Phone</label>
+                                <input type="tel" id="Phone" class="input-text"> 
+                            </div>
+                            <div class="field field-wide">
+                                <label for="Message">Message</label>
+                                <textarea id="Message" class="input-message"></textarea>
+                            </div>
+                            <input type="submit" value="send" class="button-secondary form-submit">
+                        </form>  
+
+                    </div> <!--COLUMN ENDS-->
+                </div> <!--ROW ENDS-->
+                
+
+            </div> <!--CONTAINER ENDS-->
+        </section>
+
+        <section class=""><!--MAP-->
+            <div class="container-full">
+                <img alt="Map of rise coffee locations" src="images/map.png">
+            </div> <!--CONTAINER ENDS-->
+        </section>
+        
+        <section class="background-maroon-light section-padding"><!--WHAT OUR REGULARS ARE SAYING-->
+            <div class="container">
+                        <img src="images/rise-icon-2.svg" alt="" class="img-full sunrise-2">
+
+                        <div class="row what-our-regulars row-justify-center">
+                            <h2 class="text-center">What our regulars are saying</h2>
+                        </div> <!--ROW ENDS-->
+
+                        <div class="row what-our-regulars row-justify-center row-align-center">
+                            <p class="text-center">"Friendly staff and amazing pastries. Highly reccomend"</p>
+                        </div> <!--ROW ENDS-->
+
+                        <div class="row what-our-regulars row-justify-center row-align-center">
+                            <p class="name-source text-center">- LEAH T.</p>
+                        </div> <!--ROW ENDS-->
+            </div> <!--CONTAINER ENDS-->
+        </section>
+
+    </body>
+
+    <footer class="background-maroon-dark">
+        <section class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-4 col-md-12 col-sm-12">
+                        <img src="images/rise-logo.svg" alt="Rise Logo" class="logo-img">
+                    </div> <!--COLUMN ENDS-->
+
+                    <div class="col col-lg-4 col-md-6 col-sm-12">
+                        <h3>Get in Touch</h3> <!--Contact Info-->
+                        <p><img class="footer-icon" alt="" src="images/phone.svg"> 780-939-5224</p> 
+                        <p><img class="footer-icon" alt="" src="images/letter.svg"> hello@risecoffee.com</p>
+                        <p><img class="footer-icon" alt="" src="images/location.svg"> 304 Main St Wellington, ON K0K 3L0</p>
+                    </div> <!--COLUMN ENDS-->
+
+                    <div class="col col-lg-4 col-md-6 col-sm-12">
+                        <h3>Hours</h3> <!--Hours of Operation-->
+                        <ul class="hours">
+                            <li>Monday <strong>7am - 5pm</strong></li>
+                            <li>Tuesday <strong>7am - 5pm</strong></li>
+                            <li>Wednesday <strong>7am - 5pm</strong></li>
+                            <li>Thursday <strong>7am - 7pm</strong></li>
+                            <li>Friday <strong>7am - 5pm</strong></li>
+                            <li>Saturday <strong>9am - 5pm</strong></li>
+                            <li>Sunday <strong>9am - 3pm</strong></li>
+                        </ul>
+                    </div> <!--COLUMN ENDS-->
+
+                </div> <!--ROW ENDS-->
+
+                <div class="row row-align-center line-break">
+                        <p>© 2025 Rise coffee</p> <!--Footer Content-->
+                        <a href="#" class="nav-link">Privacy Policy</a>
+                        <a href="#" class="nav-link">Terms</a>
+                </div> <!--ROW ENDS-->
+
+
+            </div> <!--CONTAINER ENDS-->
+        </section>
+    </footer>
+
+</html>
